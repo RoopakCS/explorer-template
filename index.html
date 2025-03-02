@@ -1,88 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Explorer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <!-- home section -->
     <section class="page-1">
-        <nav class="navbar">
-            <h1>Explorer</h1>
-            <ul class="nav-list">
-                <li><a href="">Hotels</a></li>
-                <li><a href="">Bike Rentals</a></li>
-                <li><a href="">Restaurent</a></li>
-            </ul>
-        </nav>
-        <div class="home-page">
-            <div class="home-content">
-                <p>welcome to explorer</p>
-                <h1>your adventure <br> travel expert in <br> the <b>SOUTH</b></h1>
-                <form action="">
-                    <select name="destination" id="" class="destination">
-                        <option value="chennai">chennai</option>
-                        <option value="madurai">Madurai</option>
-                        <option value="ramanathapuram">Ramanathapuram</option>
-                    </select><br>
-                    <button class="explore-button">EXPLORE</button>
-                </form>
-            </div>
-            <div class="home-image">
-                <img src="images/home-page-image.jpg" alt="">
-            </div>
+      <nav class="navbar">
+        <!-- <h1>Explorer</h1> -->
+        <img src="images/logo.png" alt="" />
+        <ul class="nav-list">
+          <li><a href="">Hotels</a></li>
+          <li><a href="">Bike Rentals</a></li>
+          <li><a href="">Restaurants</a></li>
+        </ul>
+      </nav>
+      <div class="home-page">
+        <div class="home-content">
+          <p>welcome to explorer</p>
+          <h1 class="h1-content">
+            your adventure <br />
+            travel expert in <br />
+            the <b>SOUTH</b>
+          </h1>
+          <form action="" class="home-form">
+            <select name="destination" id="" class="destination">
+              <option value="choose" style="color: gray">Choose</option>
+              <option value="chennai">chennai</option>
+              <option value="madurai">Madurai</option>
+              <option value="ramanathapuram">Ramanathapuram</option></select
+            ><br />
+            <button class="explore-button">EXPLORE</button>
+          </form>
         </div>
+        <div class="home-image">
+          <img src="images/home-page-image.jpg" alt="" />
+        </div>
+      </div>
     </section>
 
     <!-- destination section -->
     <section class="destination-page">
+      <div class="destination-header">
         <h3>Destinations</h3>
         <p>Just for you. Because you and your bike are special to us!</p>
-        <div class="cards">
-            <div class="card-elements">
-                <img src="images/image-1.png" alt="">
-                <h2>never ending sea and narrow roads</h2>
-                <p>Ramanathapuram</p>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis tempore sapiente dolore quas quo a eius repudiandae fugit eveniet facilis porro reprehenderit, iure quae quibusdam animi, ab corporis eligendi inventore!</p>
-            </div>
-            <div class="card-elements">
-                <img src="images/image-2.jpg" alt="">
-                <h2>never ending sea and narrow roads</h2>
-                <p>Ramanathapuram</p>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis tempore sapiente dolore quas quo a eius repudiandae fugit eveniet facilis porro reprehenderit, iure quae quibusdam animi, ab corporis eligendi inventore!</p>
-            </div>
-            <div class="card-elements">
-                <img src="images/image-1.png" alt="">
-                <h2>never ending sea and narrow roads</h2>
-                <p>Ramanathapuram</p>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis tempore sapiente dolore quas quo a eius repudiandae fugit eveniet facilis porro reprehenderit, iure quae quibusdam animi, ab corporis eligendi inventore!</p>
-            </div>
+      </div>
+      <div class="cards">
+        <div class="card-elements">
+          <img src="images/Pollachi.jpg" alt="Pollachi" />
+          <h2>Never Ending Paddy Fields and Narrow Roads</h2>
+          <p><strong>Pollachi</strong>/p></p>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged.
+          </p>
+          <button>READ MORE</button>
         </div>
+        <div class="card-elements">
+          <img src="images/Thanjavur.jpg" alt="Thanjavur" />
+          <h2>Small Ride Across town in mid summer heat</h2>
+          <p><strong>Thanjavur</strong></p>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged.
+          </p>
+          <button>READ MORE</button>
+        </div>
+        <div class="card-elements">
+          <img src="images/Chidambaram.jpg" alt="Chidambaram" />
+          <h2>Catching a Short Break at the Lotus Pond</h2>
+          <p><strong>Chidambaram</strong></p>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged.
+          </p>
+          <button>READ MORE</button>
+        </div>
+      </div>
+      <div class="cards">
+        <div class="card-elements">
+          <img src="images/Masinagudi.jpg" alt="Masinagudi" />
+          <h2>Road Trip enroute the mountains and forests</h2>
+          <p><strong>Masinagui</strong></p>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged.
+          </p>
+          <button>READ MORE</button>
+        </div>
+        <div class="card-elements">
+          <img src="images/Kumbakkonam.jpg" alt="Kumbakkonam" />
+          <h2>Fell in love with the divine agraharams</h2>
+          <p><strong>Kumbakkoam</strong></p>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged.
+          </p>
+          <button>READ MORE</button>
+        </div>
+        <div class="card-elements">
+          <img src="images/Tirunelveli.jpg" alt="Tirunelveli" />
+          <h2>Energy driven drive through the windmills</h2>
+          <p><strong>Tirunelvli</strong></p>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged.
+          </p>
+          <button>READ MORE</button>
+        </div>
+      </div>
     </section>
 
     <!-- contact page -->
     <section class="contact-page">
-        <div class="contact-container">
-            <h3>Contact Us</h3>
-            <p>our sales team will reach out to you ASAP!</p>
-            <form action="" class="contact-form">
-                <label for="name">Name</label><br>
-                <input type="text" placeholder="Name"><br>
-                <label for="hometown">Your Home Town</label><br>
-                <select name="" id="">
-                    <option value="">Your Home Town</option>
-                </select><br>
-                <label for="destination">Your Home Town</label><br>
-                <select name="" id="">
-                    <option value="">Your Destination</option>
-                </select><br>
-                <label for="contact-no">Contact Number</label><br>
-                <input type="number"><br>
-                <button class="contact-button">SUBMIT BUTTON</button>
-            </form>
+      <div class="contact-container">
+        <div class="contact-content">
+          <h3>Contact Us</h3>
+          <p>our sales team will reach out to you ASAP!</p>
         </div>
+        <form action="" class="contact-form">
+          <label for="name">Name</label><br />
+          <input type="text" placeholder="Name" /><br />
+          <label for="hometown">Your Home Town</label><br />
+          <select name="" id="">
+            <option value="">Choose</option></select
+          ><br />
+          <label for="destination">Your Home Town</label><br />
+          <select name="" id="">
+            <option value="">Choose</option></select
+          ><br />
+          <label for="contact-no">Contact Number</label><br />
+          <input type="number" /><br />
+          <button class="contact-button">SUBMIT INTEREST</button>
+        </form>
+      </div>
     </section>
-</body>
+  </body>
 </html>

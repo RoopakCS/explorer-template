@@ -1,155 +1,195 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #7a1755;
-
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #7a1755;
 }
 
 .page-1 {
-    width: 100%;
-    height: 100vh;
-} 
+  width: 100%;
+  height: 100vh;
+}
 
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    padding: 40px 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
 }
 
 .nav-list {
-    display: flex;
-    list-style: none;
-    gap: 20px;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 50px;
 }
 
 .nav-list a {
-    text-decoration: none;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .home-page {
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
 }
 
 .home-content {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    left: 5%;
-    width: 50%;
-    text-transform: uppercase;
-    text-align: left;
-    gap: 10px;
-    padding: 20px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 50px;
+  left: 15%;
+  width: 90%;
+  text-transform: uppercase;
+  text-align: left;
+  gap: 10px;
+  padding: 20px;
 }
 
 .home-content p {
-    font-size: 1em;
-    font-weight: bold;
+  font-size: 1em;
+  margin-bottom: 20px;
 }
 
 .home-content h1 {
-    text-transform: capitalize;
-}
-
-.home-content h1 {
-    font-size: 3em;
-    font-weight: normal;
+  text-transform: capitalize;
+  margin-bottom: 40px;
+  font-weight: 100;
+  font-size: 4rem;
 }
 
 .destination {
-    padding: 10px;
-    width: 100%;
-    margin: 20px 0;
+  padding: 20px;
+  border: 1px solid black;
+  width: 100%;
 }
 
 .explore-button {
-    padding: 10px;
-    border: none;
-    background: #7a1755;
-    color: white;
+  padding: 10px 30px;
+  border: none;
+  background: #7a1755;
+  color: white;
 }
 
 .home-image {
-    display: flex;
-    width: 100%;
-    justify-content: flex-end;
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
 }
 
 .destination-page {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    width: 100%;
-    height: 100vh;
-    padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  height: 200vh;
+  padding: 20px;
+}
+
+.destination-header {
+  margin-left: 65px;
+  margin-bottom: 20px;
 }
 
 .destination-page h3 {
-    font-size: 2em;
+  font-size: 2em;
 }
 
 .cards {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 10px 0px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+  margin: 10px 0px;
 }
 
 .card-elements {
-    width: 400px;
-    height: 400px;
-    line-height: 1.5;
+  width: 400px;
+  height: 400px;
+  line-height: 1.5;
+}
+
+.card-elements button {
+  background-color: #7a1755;
+  color: white;
+  margin: 20px 0;
+  padding: 10px 20px;
 }
 
 .card-elements img {
-    width: 400px;
-    height: 300px;
+  width: 400px;
+  height: 300px;
 }
 
 .card-elements h2 {
-    text-transform: capitalize;
+  color: black;
+  text-transform: capitalize;
+  font-weight: 100;
+}
+
+.card-elements p,
+strong {
+  margin-top: 10px;
+  /* margin-bottom: 20px; */
+  color: black;
 }
 
 .contact-page {
-    width: 100%;
-    height: 100vh;
+  width: 100%;
+  height: 100vh;
+  background: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 20px;
+  gap: 10px;
+}
+
+.contact-content {
+    position: relative;
+    left: -1px;
+    margin-bottom: 10px;
 }
 
 .contact-container h3 {
-    font-weight: bold;
-    font-size: 3em;
+  font-weight: 100;
+  font-size: 3em;
 }
 
 .contact-container p {
-    font-size: 1.5em;
-    text-transform: capitalize;
+  font-size: 1.5em;
+  text-transform: capitalize;
 }
 
 .contact-form {
-    line-height: 1.5;
+  line-height: 1.5;
 }
 
-.contact-form input, select {
-    padding: 10px 20px;
-    width: 400px;
+.contact-form input,
+select {
+  padding: 20px 20px;
+  width: 500px;
+  margin: 10px 0;
+  color: black;
+}
+
+.contact-form label {
+    color: black;
 }
 
 .contact-button {
-    padding: 10px;
-    background-color: #7a1755;
-    color: white;
-    margin: 10px 0px;
+  padding: 10px 20px;
+  background-color: #7a1755;
+  color: white;
+  margin: 10px 0px;
 }
